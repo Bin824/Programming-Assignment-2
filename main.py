@@ -10,7 +10,6 @@ def is_leap(value):
     """
     return (value % 4 == 0 and value % 100 != 0) or value % 400 == 0
 
-"""
-year = int(input("Enter an integer between 1,000 and 10,000: "))
-print(is_leap(year))
-"""
+
+# year = int(input("Enter an integer between 1,000 and 10,000: "))
+# print(is_leap(year))
